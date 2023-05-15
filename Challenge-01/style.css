@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Figtree", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container {
+  margin: auto;
+  width: fit-content;
+}
+
+.input-wrapper {
+  margin-top: 250px;
+}
+
+.input-wrapper h4 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-el {
+  text-align: center;
+}
+
+.input-el input[type="text"] {
+  outline: transparent;
+  width: 300px;
+  padding: 8px 10px;
+  font-size: 18px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  transition: all 0.15s ease;
+}
+
+.input-el input[type="text"]:focus {
+  border-color: #ffbb00;
+}
+
+.input-el button {
+  outline: transparent;
+  padding: 8px 12px;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.input-el button:hover {
+  opacity: 0.75;
+}
+
+.output-wrapper {
+  margin-top: 20px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.output-wrapper .output-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.output-wrapper .output-heading h4 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.output-wrapper .output-heading button {
+  display: none;
+  outline: transparent;
+  background: none;
+  color: #000000;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}

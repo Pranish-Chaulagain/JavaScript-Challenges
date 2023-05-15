@@ -6,10 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <main class="container">
+        <section class="input-wrapper">
+            <h4>Calculate the area of circle</h4>
+            <div class="input-el">
+                <input type="text" name="" id="value" placeholder="Enter a number" autofocus>
+                <button id="print">Print</button>
+            </div>
 
+        </section>
+
+        <section class="output-wrapper">
+            <div class="output-heading">
+                <h4>Output:</h4>
+                <button id="clear"><i>Refresh</i></button>
+            </div>
+
+            <div id="output"></div>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
